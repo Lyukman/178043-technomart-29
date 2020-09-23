@@ -9,7 +9,7 @@
 
 <body>
   <header class="main-header">
-    <a><img src="img/index-logo.svg" width="108" height="18" alt="Логотип ТЕХНОМАРТ"></a>
+    <a href="index.html"><img src="img/index-logo.svg" width="108" height="18" alt="Логотип ТЕХНОМАРТ"></a>
     <i>Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</i>
 
     <!-- fallback -->
@@ -23,11 +23,14 @@
     <a href="blank.html">Оформить заказ</a>
     <!-- need to use the phone number normalization function -->
     <a href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
-    <a href="blank.html">Войти</a>
-    <a href="blank.html">Регистрация</a>
+    <ul>
+      <li><a href="blank.html">Равшан Джамшутович</a></li>
+      <li><a href="blank.html">Мои заказы</a></li>
+      <li><a href="blank.html">Личный кабинет</a></li>
+    </ul>
     <nav>
       <ul>
-        <li><a href="blank.html">Главная</a></li>
+        <li><a href="index.html">Главная</a></li>
         <li><a href="blank.html">Компания</a></li>
         <li><a href="blank.html">Каталог</a></li>
         <li><a href="blank.html">Новости</a></li>
@@ -45,19 +48,19 @@
       <li><a href="#">Инструмент</a></li>
       <li>Перфораторы</li>
     </ul>
-    <aside>
+    <section>
       <h2>Фильтр:</h2>
       <!-- Здесь будет форма фильтра -->
-    </aside>
+    </section>
     <section>
       <h2>Список перфораторов</h2>
       <div>
         <h3>Сортировка:</h3>
-        <label>По цене<input type="radio" value="by-cost" name="sortby"></label>
-        <label>По типу<input type="radio" value="by-type" name="sortby"></label>
-        <label>По функционалу<input type="radio" value="by-function" name="sortby"></label>
-        <button type="button">По возрастанию</button>
-        <button type="button">По убыванию</button>
+        <a href="catalog.html?sort_by=cost&sort_type=sort-type">По цене</a>
+        <a href="catalog.html?sort_by=type&sort_type=sort-type">По типу</a>
+        <a href="catalog.html?sort_by=func&sort_type=sort-type">По функционалу</a>
+        <a href="catalog.html?sort_by=sort-by&sort_type=asc">По возрастанию</a>
+        <a href="catalog.html?sort_by=sort-by&sort_type=desc">По убыванию</a>
       </div>
       <ul>
         <li>
@@ -211,7 +214,7 @@
   <footer class="main-footer">
     <section>
       <h2>Контактная информация</h2>
-      <a><img src="img/index-logo.svg" width="108" height="18" alt="Логотип ТЕХНОМАРТ"></a>
+      <a href="index.html"><img src="img/index-logo.svg" width="108" height="18" alt="Логотип ТЕХНОМАРТ"></a>
       <address>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <!-- need to use the phone number normalization function -->
@@ -249,13 +252,9 @@
     </section>
   </footer>
   <section>
-    <h2>Обратная связь</h2>
-    <!-- Здесь будет форма обратной формы -->
-    <button type="button">Закрыть</button>
-  </section>
-  <section>
-    <h2>Как до нас добраться</h2>
-    <!-- Здесь будет карта -->
+    <h2>Товар добавлен в корзину!</h2>
+    <a href="blank.html">Оформить заказ</a>
+    <a href="blank.html">Продолжить покупки</a>
     <button type="button">Закрыть</button>
   </section>
 </body>
